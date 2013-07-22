@@ -1,5 +1,5 @@
-# Plock Manager v0.5.2
-[plock](https://github.com/hugodias/) é um gerenciador de clientes feito em cakephp para resolver o problema que muitas fábricas de software e agências de publicidade possuem, que é guardar e gerenciar de forma fácil e prática os dados de todos seus clientes.
+# Plock Manager v1.0
+[Plock](https://github.com/Agencia-WT/plock) é um gerenciador de clientes feito em cakephp para resolver o problema que muitas fábricas de software e agências de publicidade possuem, que é guardar e gerenciar de forma fácil e prática os dados de todos seus clientes.
 
 
 Ele tem: 
@@ -7,12 +7,7 @@ Ele tem:
 
 * Estrutura feita em MVC com [CakePHP](http://cakephp.org/)
 * CSS utilizando o [BOOTSTRAP](http://twitter.github.com/bootstrap/) do twitter
-* Front-end construido utilizando [CoffeeScript](http://jashkenas.github.com/coffee-script/)
-* Importação de arquivos XML do [Filezilla](http://filezilla-project.org/)
-* Validação automática do ftp de cada cliente informando se está acessível ou não
 * Cadastro de servidores relacionado aos clientes
-* Verificação automática de relação entre servidor -> cliente
-* Controle de usuários com regras de acesso [ admin, manager, editor, developer, designer ]
 
 #### Para utilizar você precisa ter:
 * PHP 5.1 ou superior
@@ -20,14 +15,11 @@ Ele tem:
 * Mode Rewrite habilitado
 
 ##### Para desenvolver
-* [Node.js](http://nodejs.org/)
-* [CoffeeScript](http://jashkenas.github.com/coffee-script/)
-
+* DER `projectInfo/der.mwb` [MySQL Workbench](http://www.mysql.com/downloads/workbench/)
 
 #### Instalando
-
-* Importe o arquivo `plock_database.sql` para seu banco de dados de preferência
-* Acesse o arquivo `app/config/database.php` e coloque os dados do seu banco
+* Crie uma banco de dados e importe o arquivo `projectInfo/plock_database.sql` para seu novo banco de dados.
+* Acesse o arquivo `app/Config/database.php` e informe as iformações de acesso do seu banco de dados.
 
 ``` php
 var $default = array(
@@ -41,23 +33,11 @@ var $default = array(
 );
 ```
 
-* Troque a URL base no arquivo `app/config/bootstrap.php` para a URL padrão do seu site. 
-
-``` php
-# Lembre SEMPRE de colocar uma barra no final da URL do seu site
-Configure::write('BASE_URL','http://www.meusite.comb.br/');
-```
-
 #### Dados de acesso rápido
 
 Usuário: `admin`
 
 Senha: `admin`
-
-#### TODO
-* Exportar clientes em CSV, XML e HTML
-* Integrar cada cliente com suas respectivas tarefas no [BASECAMP](http://basecamphq.com/) mostrando tarefas pendentes
-* Separar contatos e emails em tabelas diferentes
 
 
 Twitter Bootstrap Copyright and license
@@ -76,4 +56,3 @@ distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
-

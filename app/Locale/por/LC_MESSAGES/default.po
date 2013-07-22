@@ -1,0 +1,553 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PLOCK PORT\n"
+"POT-Creation-Date: 2013-03-11 14:22+0000\n"
+"PO-Revision-Date: 2013-03-11 11:23-0300\n"
+"Last-Translator: Thiago Silva <thiago.dasilvaresende@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 1.5.5\n"
+
+#: Controller\ConnectionTypesController.php:13
+#: View\ConnectionTypes\_form.ctp:5 View\ConnectionTypes\index.ctp:5
+#: View\Layouts\default.ctp:106
+msgid "Connection Types"
+msgstr "Tipo de Conexões"
+
+#: Controller\ConnectionTypesController.php:40
+#: View\ConnectionTypes\index.ctp:34
+msgid "Register Connection Type"
+msgstr "Cadastrar Tipo de Conexão"
+
+#: Controller\ConnectionTypesController.php:48;79
+#: Controller\DomainsController.php:24;70 Controller\ServersController.php:48
+#: Controller\UsersController.php:79;114 View\Pages\preferences.ctp:73
+msgid "Save"
+msgstr "Salvar"
+
+#: Controller\ConnectionTypesController.php:54;86
+msgid "Registered Connection Type."
+msgstr "Tipo de Conexão cadastrada."
+
+#: Controller\ConnectionTypesController.php:74
+msgid "Edit Connection Type"
+msgstr "Editar Tipo de Conexão"
+
+#: Controller\ConnectionTypesController.php:100
+msgid "Invalid connection type."
+msgstr "Tipo de Conexão inválida."
+
+#: Controller\ConnectionTypesController.php:105
+msgid ""
+"Can not delete the connection type this because it linked to one or more "
+"connections."
+msgstr ""
+"Não é possível excluir o tipo de conexão devido a mesma esta vinculada a uma "
+"ou mais conexões."
+
+#: Controller\ConnectionTypesController.php:110
+msgid "Connection type deleted."
+msgstr "Tipo de conexão excluída."
+
+#: Controller\ConnectionTypesController.php:114
+msgid "Connection type was not deleted."
+msgstr "Tipo de conexão não excluída."
+
+#: Controller\CustomersController.php:15 View\Customers\_form.ctp:5
+#: View\Customers\index.ctp:5 View\Customers\view.ctp:5
+#: View\Domains\_form.ctp:5 View\Layouts\default.ctp:82
+msgid "Customers"
+msgstr "Clientes"
+
+#: Controller\CustomersController.php:42 View\Customers\index.ctp:34
+msgid "Register Customer"
+msgstr "Cadastrar Cliente"
+
+#: Controller\CustomersController.php:50
+msgid "Next"
+msgstr "Próximo"
+
+#: Controller\CustomersController.php:65;111
+msgid "Registered customer."
+msgstr "Cliente cadastrado."
+
+#: Controller\CustomersController.php:85
+msgid "Edit Customer"
+msgstr "Editar Cliente"
+
+#: Controller\CustomersController.php:125;144
+msgid "Invalid customer."
+msgstr "Cliente inválido."
+
+#: Controller\CustomersController.php:130
+msgid "Customer deleted."
+msgstr "Cliente excluído."
+
+#: Controller\CustomersController.php:134
+msgid "Customer was not deleted."
+msgstr "Cliente não excluído."
+
+#: Controller\CustomersController.php:149
+msgid "View Customer"
+msgstr "Visualizar Cliente"
+
+#: Controller\DomainsController.php:16 View\Customers\view.ctp:36
+#: View\Domains\_form.ctp:14
+msgid "Register Domain"
+msgstr "Cadastrar Domínio"
+
+#: Controller\DomainsController.php:45;97
+msgid "Registered domain."
+msgstr "Domínio cadastrado."
+
+#: Controller\DomainsController.php:65 View\Domains\_form.ctp:15
+msgid "Edit Domain"
+msgstr "Editar Domínio"
+
+#: Controller\DomainsController.php:111
+msgid "Invalid domain."
+msgstr "Domínio inválido."
+
+#: Controller\DomainsController.php:116
+msgid "Domain deleted."
+msgstr "Domínio excluído."
+
+#: Controller\DomainsController.php:120
+msgid "Domain was not deleted."
+msgstr "Domínio não excluído."
+
+#: Controller\PagesController.php:74 View\Layouts\default.ctp:74;118
+msgid "About"
+msgstr "Sobre"
+
+#: Controller\PagesController.php:80 View\Layouts\default.ctp:115
+#: View\Pages\preferences.ctp:5;24
+msgid "Preferences"
+msgstr "Preferências"
+
+#: Controller\PagesController.php:87
+msgid "Registered preferences."
+msgstr "Preferências cadastrada."
+
+#: Controller\ServersController.php:13 View\Layouts\default.ctp:89
+#: View\Servers\_form.ctp:5 View\Servers\index.ctp:5
+msgid "Servers"
+msgstr "Servidores"
+
+#: Controller\ServersController.php:40 View\Servers\index.ctp:34
+msgid "Register Server"
+msgstr "Cadastrar Servidor"
+
+#: Controller\ServersController.php:54;86
+msgid "Registered server."
+msgstr "Servidor cadastrado."
+
+#: Controller\ServersController.php:74
+msgid "Edit Server"
+msgstr "Editar Servidor"
+
+#: Controller\ServersController.php:100
+msgid "Invalid server."
+msgstr "Servidor inválido."
+
+#: Controller\ServersController.php:105
+msgid ""
+"Can not delete the server because the same this linked to one or more "
+"domains."
+msgstr ""
+"Não é possível excluir o servidor devido o mesmo esta vinculado a um ou mais "
+"domínios."
+
+#: Controller\ServersController.php:110
+msgid "Server deleted."
+msgstr "Servidor excluído."
+
+#: Controller\ServersController.php:114
+msgid "Server was not deleted."
+msgstr "Servidor não excluído."
+
+#: Controller\UsersController.php:18 View\Layouts\default.ctp:71
+#: View\Users\_form.ctp:59 View\Users\index.ctp:82
+msgid "Login"
+msgstr "Login"
+
+#: Controller\UsersController.php:26
+msgid "Invalid username or password, try again."
+msgstr "Nome de usuário ou senha inválido, tente novamente."
+
+#: Controller\UsersController.php:40 View\Layouts\default.ctp:110
+#: View\Pages\about.ctp:48 View\Users\_form.ctp:5 View\Users\index.ctp:5
+msgid "Users"
+msgstr "Usuários"
+
+#: Controller\UsersController.php:71 View\Users\index.ctp:34
+msgid "Register User"
+msgstr "Cadastrar Usuário"
+
+#: Controller\UsersController.php:85;125
+msgid "Registered user."
+msgstr "Usuário cadastrado."
+
+#: Controller\UsersController.php:109
+msgid "Edit User"
+msgstr "Editar Usuário"
+
+#: Controller\UsersController.php:143
+msgid "Invalid user."
+msgstr "Usuário inválido."
+
+#: Controller\UsersController.php:148
+msgid "User deleted."
+msgstr "Usuário excluído."
+
+#: Controller\UsersController.php:152
+msgid "User was not deleted."
+msgstr "Usuário não excluído."
+
+#: Model\ConnectionType.php:14 Model\Customer.php:18 Model\Server.php:14
+msgid "The name field is required."
+msgstr "O campo nome é obrigatório."
+
+#: Model\Domain.php:21
+msgid "The url field is required."
+msgstr "O campo url é obrigatório."
+
+#: Model\User.php:17
+msgid "The login field is required."
+msgstr "O campo login é obrigatório."
+
+#: Model\User.php:21
+msgid "This login already exists."
+msgstr "Este login já existe."
+
+#: Model\User.php:27
+msgid "Invalid e-mail."
+msgstr "E-mail inválido."
+
+#: Model\User.php:31
+msgid "This e-mail already exists."
+msgstr "Este e-mail já existe."
+
+#: Model\User.php:37
+msgid "The password field is required."
+msgstr "O campo senha é obrigatório."
+
+#: Model\User.php:44
+msgid "Please enter a valid type"
+msgstr "Por favor insira um tipo válido."
+
+#: View\ConnectionTypes\_form.ctp:10 View\Customers\_form.ctp:10
+#: View\Layouts\default.ctp:85;92 View\Servers\_form.ctp:10
+#: View\Users\_form.ctp:10
+msgid "Register"
+msgstr "Cadastrar"
+
+#: View\ConnectionTypes\_form.ctp:11 View\ConnectionTypes\index.ctp:92
+#: View\Customers\_form.ctp:11 View\Customers\index.ctp:93
+#: View\Customers\view.ctp:23;133 View\Layouts\default.ctp:139
+#: View\Servers\_form.ctp:11 View\Servers\index.ctp:126
+#: View\Users\_form.ctp:11 View\Users\index.ctp:98
+msgid "Edit"
+msgstr "Editar"
+
+#: View\ConnectionTypes\_form.ctp:44 View\ConnectionTypes\index.ctp:53;81
+#: View\Customers\_form.ctp:44;76;121 View\Customers\index.ctp:53;81
+#: View\Customers\view.ctp:66 View\Servers\_form.ctp:44
+#: View\Servers\index.ctp:53;81 View\Users\_form.ctp:44
+#: View\Users\index.ctp:53;81
+msgid "Name"
+msgstr "Nome"
+
+#: View\ConnectionTypes\_form.ctp:65 View\ConnectionTypes\index.ctp:127
+#: View\Customers\_form.ctp:148 View\Customers\index.ctp:128
+#: View\Customers\view.ctp:283 View\Domains\_form.ctp:187
+#: View\Pages\preferences.ctp:79 View\Servers\_form.ctp:138
+#: View\Servers\index.ctp:161 View\Users\_form.ctp:124
+#: View\Users\index.ctp:133
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: View\ConnectionTypes\index.ctp:31
+msgid "Search Connection Types"
+msgstr "Pesquisar Tipo de Conexões"
+
+#: View\ConnectionTypes\index.ctp:68 View\Customers\index.ctp:68
+#: View\Layouts\default.ctp:180 View\Servers\index.ctp:68
+#: View\Users\index.ctp:68
+msgid "Search"
+msgstr "Pesquisar"
+
+#: View\ConnectionTypes\index.ctp:95;128 View\Customers\index.ctp:96;129
+#: View\Customers\view.ctp:120;284 View\Servers\index.ctp:129;162
+#: View\Users\index.ctp:101;134
+msgid "Delete"
+msgstr "Excluir"
+
+#: View\ConnectionTypes\index.ctp:121
+msgid "Delete Connection Type"
+msgstr "Excluir Tipo de Conexão"
+
+#: View\ConnectionTypes\index.ctp:124
+msgid "Are you sure you want to delete the connection type "
+msgstr "Tem certeza de que deseja excluir o tipo de conexão "
+
+#: View\Customers\_form.ctp:59 View\Customers\view.ctp:51;149
+#: View\Domains\_form.ctp:82 View\Servers\_form.ctp:117
+msgid "Observation"
+msgstr "Observação"
+
+#: View\Customers\_form.ctp:71 View\Customers\view.ctp:59
+msgid "Contacts"
+msgstr "Contatos"
+
+#: View\Customers\_form.ctp:77;124 View\Customers\view.ctp:67
+msgid "Phone"
+msgstr "Telefone"
+
+#: View\Customers\_form.ctp:78;127 View\Customers\view.ctp:68
+#: View\Users\_form.ctp:73 View\Users\index.ctp:83
+#: View\Users\remember_password.ctp:28
+msgid "E-mail"
+msgstr "E-mail"
+
+#: View\Customers\index.ctp:31
+msgid "Search Customers"
+msgstr "Pesquisar Clientes"
+
+#: View\Customers\index.ctp:92 View\Customers\view.ctp:9
+msgid "View"
+msgstr "Visualizar"
+
+#: View\Customers\index.ctp:122
+msgid "Delete Customer"
+msgstr "Excluir Cliente"
+
+#: View\Customers\index.ctp:125
+msgid "Are you sure you want to delete the customer "
+msgstr "Tem certeza de que deseja excluir o cliente "
+
+#: View\Customers\view.ctp:79;88;194;207;216;231;244;253
+#: View\Servers\index.ctp:97;110;119
+msgid "Copy"
+msgstr "Copiar"
+
+#: View\Customers\view.ctp:157 View\Domains\_form.ctp:94
+msgid "Connections"
+msgstr "Conexões"
+
+#: View\Customers\view.ctp:161
+msgid "All"
+msgstr "Todos"
+
+#: View\Customers\view.ctp:164;190 View\Domains\_form.ctp:66
+msgid "Server"
+msgstr "Servidor"
+
+#: View\Customers\view.ctp:180 View\Domains\_form.ctp:99
+#: View\Users\_form.ctp:99 View\Users\index.ctp:84
+msgid "Type"
+msgstr "Tipo"
+
+#: View\Customers\view.ctp:181 View\Domains\_form.ctp:100;160
+#: View\Servers\index.ctp:82
+msgid "Host"
+msgstr "Host"
+
+#: View\Customers\view.ctp:182 View\Domains\_form.ctp:101;163
+#: View\Servers\_form.ctp:87 View\Servers\index.ctp:83
+msgid "User"
+msgstr "Usuário"
+
+#: View\Customers\view.ctp:183 View\Domains\_form.ctp:102;166
+#: View\Elements\form_login.ctp:33 View\Servers\_form.ctp:100;103
+#: View\Servers\index.ctp:84 View\Users\_form.ctp:87
+msgid "Password"
+msgstr "Senha"
+
+#: View\Customers\view.ctp:277
+msgid "Delete Domain"
+msgstr "Excluir Domínio"
+
+#: View\Customers\view.ctp:280
+msgid "Are you sure you want to delete the domain "
+msgstr "Tem certeza de que deseja excluir o domínio "
+
+#: View\Domains\_form.ctp:51
+msgid "Url"
+msgstr "Url"
+
+#: View\Elements\flash_fail.ctp:3
+msgid "Error!"
+msgstr "Erro!"
+
+#: View\Elements\flash_success.ctp:3
+msgid "Success!"
+msgstr "Sucesso!"
+
+#: View\Elements\form_login.ctp:22
+msgid "Username"
+msgstr "Usuário"
+
+#: View\Elements\form_login.ctp:52 View\Users\remember_password.ctp:24
+msgid "Forgot your password?"
+msgstr "Esqueceu sua senha?"
+
+#: View\Elements\form_login.ctp:55 View\Users\remember_password.ctp:31
+msgid "Remember my password"
+msgstr "Lembrar minha senha"
+
+#: View\Layouts\default.ctp:84;91
+msgid "List"
+msgstr "Listar"
+
+#: View\Layouts\default.ctp:104
+msgid "Config"
+msgstr "Configuração"
+
+#: View\Layouts\default.ctp:150
+msgid "Logout"
+msgstr "Sair"
+
+#: View\Pages\about.ctp:10
+msgid ""
+"Plock is a client manager in cakephp done to solve the problem that many "
+"software factories and advertising agencies have, which is to store and "
+"manage easily and practice data from all its customers."
+msgstr ""
+"Plock é um gerenciador de clientes feito em cakephp para resolver o problema "
+"que muitas fábricas de software e agências de publicidade possuem, que é "
+"guardar e gerenciar de forma fácil e prática os dados de todos seus clientes."
+
+#: View\Pages\about.ctp:14
+msgid "Themes"
+msgstr "Temas"
+
+#: View\Pages\about.ctp:33
+msgid "Features"
+msgstr "Caractérísticas"
+
+#: View\Pages\about.ctp:36
+msgid "Front-end"
+msgstr "Front-end"
+
+#: View\Pages\about.ctp:41
+msgid "Custom themes"
+msgstr "Temas personalizados"
+
+#: View\Pages\about.ctp:45
+msgid "Back-end"
+msgstr "Back-end"
+
+#: View\Pages\about.ctp:55
+msgid "Languages"
+msgstr "Idiomas"
+
+#: View\Pages\about.ctp:58 View\Pages\preferences.ctp:34
+msgid "English"
+msgstr "Inglês"
+
+#: View\Pages\about.ctp:61 View\Pages\preferences.ctp:35
+msgid "Portuguese"
+msgstr "Português"
+
+#: View\Pages\about.ctp:67
+msgid "Ready Scripts"
+msgstr "Scripts prontos"
+
+#: View\Pages\about.ctp:69
+msgid "Loading scripts"
+msgstr "Scripts carregados"
+
+#: View\Pages\about.ctp:74
+msgid "Browser features"
+msgstr "Recursos do navegador"
+
+#: View\Pages\about.ctp:76
+msgid "Verifying browser features"
+msgstr "Verificando recursos do navegador"
+
+#: View\Pages\preferences.ctp:31
+msgid "Language"
+msgstr "Idioma"
+
+#: View\Pages\preferences.ctp:47
+msgid "Theme"
+msgstr "Tema"
+
+#: View\Servers\_form.ctp:59
+msgid "URL"
+msgstr "URL"
+
+#: View\Servers\_form.ctp:73
+msgid "IP"
+msgstr "IP"
+
+#: View\Servers\index.ctp:31
+msgid "Search Servers"
+msgstr "Pesquisar Servidores"
+
+#: View\Servers\index.ctp:155
+msgid "Delete Server"
+msgstr "Excluir Servidor"
+
+#: View\Servers\index.ctp:158
+msgid "Are you sure you want to delete the server "
+msgstr "Tem certeza de que deseja excluir o servidor "
+
+#: View\Users\_form.ctp:102
+msgid "Admin"
+msgstr "Administrador"
+
+#: View\Users\_form.ctp:103
+msgid "Author"
+msgstr "Autor"
+
+#: View\Users\change_password.ctp:1
+msgid "Change password"
+msgstr "Alterar senha"
+
+#: View\Users\change_password.ctp:34
+msgid "New password"
+msgstr "Nova senha"
+
+#: View\Users\change_password.ctp:42
+msgid "Confirm new password"
+msgstr "Confirmar nova senha"
+
+#: View\Users\change_password.ctp:50
+msgid "Submit"
+msgstr "Enviar"
+
+#: View\Users\index.ctp:31
+msgid "Search Users"
+msgstr "Pesquisar Usuários"
+
+#: View\Users\index.ctp:127
+msgid "Delete User"
+msgstr "Excluir Usuário"
+
+#: View\Users\index.ctp:130
+msgid "Are you sure you want to delete the user "
+msgstr "Tem certeza de que deseja excluir o usuário "
+
+#: View\Errors\error400.ctp:21 View\Errors\error500.ctp:21
+msgid "Error"
+msgstr "Erro"
+
+#: View\Errors\error400.ctp:23
+msgid "The requested address %s was not found on this server."
+msgstr ""
+
+#: View\Errors\error500.ctp:22
+msgid "An Internal Error Has Occurred."
+msgstr "Ocorreu erro interno."
+
+#: webroot\test.php:87
+msgid "Debug setting does not allow access to this url."
+msgstr "Configuração de depuração não permitir o acesso a esta URL."
